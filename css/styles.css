@@ -1,3 +1,6 @@
+/*
+Created by Poojan Thaker. 2021
+*/
 /* tag selectors */
 body{
     text-align: center;
@@ -115,7 +118,7 @@ table{
 }
 
  .hspace{
-     height: 10px;
+     height: 100px;
  }
 
  a:link{
