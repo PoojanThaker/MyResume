@@ -18,7 +18,7 @@
     </div>
     <div class='header-element'>
         <img class='icon' src="images/email.svg" alt="mail-icon">
-        <span><a href="mailto:poojanthaker@gmail.com">poojanthaker@gmail.com</a></span>
+        <span><a id='email' href=""></a></span>
     </div>
     <div class='header-element'>
         <img class='icon' src="images/linkedin.svg" alt="linkedin-icon">
@@ -382,5 +382,15 @@
         </div>
     </div>
 </body>
-
+<script type="text/javascript">
+    server = 'gmail.com' ;
+    email = ('poojanthaker' + '@' + server) ;
+    let email_a = document.getElementById('email');
+    email_a.innerHTML = email;
+    email_a.href = 'mailto:'+email;
+</script>
+  
+  <NOSCRIPT>  
+    Email address protected by JavaScript
+  </NOSCRIPT>
 </html>
